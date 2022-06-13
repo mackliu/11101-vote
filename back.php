@@ -15,8 +15,22 @@
     ?>
 </div>
 <div id="container">
-    dfasdfs
+<?php
+if(isset($_GET['do'])){
+    $file="./back/".$_GET['do'].".php";
+    include $file;
+}else{
+?>
+    <button class="btn btn-primary" onclick="location.href='?do=add_vote'">新增投票</button>
+    
+    <div>投票列表</div>
+<?php
+}
+?>
 </div>
+
+
+
 <div>
     <?php include "./layout/footer.php";?>
 </div> 
