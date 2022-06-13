@@ -9,13 +9,19 @@
 #header{
 width:100%;
 height:300px;
-
+position:relative;
+}
+#header .slider{
+height:100%;
+background: blue;
 }
 #header nav{
+    position:absolute;
     width:85%;
     min-width:1000px;
-    margin:auto;
-    background:lightcyan; 
+    padding:0.25rem 7.5%;
+    background:lightcyan;
+    bottom:0; 
 }
 #container{
 width:85%;
@@ -24,4 +30,7 @@ margin:auto;
 }
 footer{
     width:100%;
+    height:3rem;
+    background:black;
+    color:white;
 }

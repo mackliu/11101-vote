@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>泰山線上投票中心</title>
     <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/front.css">
 </head>
 <body>
 <div id="header">
