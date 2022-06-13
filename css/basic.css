@@ -17,7 +17,7 @@ background: blue;
 }
 #header nav{
     position:absolute;
-    width:85%;
+    width:100%;
     min-width:1000px;
     padding:0.25rem 7.5%;
     background:lightcyan;
