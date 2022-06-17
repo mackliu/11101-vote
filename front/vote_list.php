@@ -13,7 +13,7 @@
 
             //使用迴圈將每一筆資料的內容顯示在畫面上
             foreach($subjects as $subject){
-                echo "<a href='?do=vote&id={$subject['id']}'>";
+                echo "<a href='?do=vote_result&id={$subject['id']}'>";
                 echo "<li class='list-items'>";
                 echo "<div>{$subject['subject']}</div>";
                 if($subject['multiple']==0){
