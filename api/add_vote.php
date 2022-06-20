@@ -1,14 +1,13 @@
 <?php
 //引入base.php
 include_once "base.php";
-
 //接收來自表單傳來的投票主題文字內容
 $subject=$_POST['subject'];
 
 //建立資料陣列，請參考base.php中的函式save($table,$arg)
 $add_subject=[
     'subject'=>$subject,
-    'type_id'=>1,
+    'type_id'=>$_POST['types'],
     'multiple'=>$_POST['multiple'],
     'start'=>date("Y-m-d"),
     'end'=>date("Y-m-d",strtotime("+10 days")),
